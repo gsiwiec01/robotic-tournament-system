@@ -1,1 +1,8 @@
-﻿<Solution />
+﻿<Solution>
+  <Folder Name="/BuildingBlocks/">
+    <Project Path="RTS.BuildingBlocks.Application\RTS.BuildingBlocks.Application.csproj" Type="Classic C#" />
+    <Project Path="RTS.BuildingBlocks.Domain\RTS.BuildingBlocks.Domain.csproj" Type="Classic C#" />
+    <Project Path="RTS.BuildingBlocks.Infrastructure\RTS.BuildingBlocks.Infrastructure.csproj" Type="Classic C#" />
+  </Folder>
+  <Folder Name="/Modules/" />
+</Solution>
