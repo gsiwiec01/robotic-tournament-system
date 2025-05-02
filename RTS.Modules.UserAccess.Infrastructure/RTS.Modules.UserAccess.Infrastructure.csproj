@@ -7,8 +7,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\RTS.BuildingBlocks.Application\RTS.BuildingBlocks.Application.csproj" />
-      <ProjectReference Include="..\RTS.BuildingBlocks.Domain\RTS.BuildingBlocks.Domain.csproj" />
+      <ProjectReference Include="..\RTS.Modules.UserAccess.Application\RTS.Modules.UserAccess.Application.csproj" />
+      <ProjectReference Include="..\RTS.Modules.UserAccess.Domain\RTS.Modules.UserAccess.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.4" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.4" />
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
     </ItemGroup>
 
 </Project>
