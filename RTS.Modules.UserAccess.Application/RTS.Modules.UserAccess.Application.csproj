@@ -9,6 +9,7 @@
     <ItemGroup>
       <ProjectReference Include="..\RTS.BuildingBlocks.Application\RTS.BuildingBlocks.Application.csproj" />
       <ProjectReference Include="..\RTS.BuildingBlocks.Domain\RTS.BuildingBlocks.Domain.csproj" />
+      <ProjectReference Include="..\RTS.Modules.UserAccess.Domain\RTS.Modules.UserAccess.Domain.csproj" />
     </ItemGroup>
 
 </Project>
