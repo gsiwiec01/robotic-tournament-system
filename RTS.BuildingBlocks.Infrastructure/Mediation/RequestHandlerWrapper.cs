@@ -56,7 +56,7 @@ public class RequestHandlerWrapper<TRequest, TResponse> : IRequestHandlerWrapper
 
     public async Task<object?> Handle(object request, CancellationToken cancellationToken)
     {
-        return Handle((TRequest)request, cancellationToken);
+        return await Handle((TRequest)request, cancellationToken);
     }
 
     public Task<TResponse> Handle(IRequest<TResponse> request, CancellationToken cancellationToken)
