@@ -3,7 +3,7 @@ using RTS.BuildingBlocks.Application.Mediation.Contracts;
 
 namespace RTS.BuildingBlocks.Infrastructure.Mediation;
 
-public class RequestHandlerWrapper<TRequest> : IRequestHandlerWrapper
+internal class RequestHandlerWrapper<TRequest> : IRequestHandlerWrapper
     where TRequest : IRequest
 {
     private readonly IRequestHandler<TRequest> _handler;
@@ -41,7 +41,7 @@ public class RequestHandlerWrapper<TRequest> : IRequestHandlerWrapper
     }
 }
 
-public class RequestHandlerWrapper<TRequest, TResponse> : IRequestHandlerWrapper<TResponse>
+internal class RequestHandlerWrapper<TRequest, TResponse> : IRequestHandlerWrapper<TResponse>
     where TRequest : IRequest<TResponse>
 {
     private readonly IRequestHandler<TRequest, TResponse> _handler;

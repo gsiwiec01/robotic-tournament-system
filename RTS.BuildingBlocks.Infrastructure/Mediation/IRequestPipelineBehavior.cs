@@ -1,4 +1,6 @@
-﻿namespace RTS.BuildingBlocks.Application.Mediation.Contracts;
+﻿using RTS.BuildingBlocks.Application.Mediation.Contracts;
+
+namespace RTS.BuildingBlocks.Infrastructure.Mediation;
 
 public interface IRequestPipelineBehavior<in TRequest, TResponse>
     where TRequest : IRequestBase

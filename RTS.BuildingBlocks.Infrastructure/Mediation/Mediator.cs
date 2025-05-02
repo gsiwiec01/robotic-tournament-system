@@ -4,7 +4,7 @@ using RTS.BuildingBlocks.Application.Mediation.Contracts;
 
 namespace RTS.BuildingBlocks.Infrastructure.Mediation;
 
-public class Mediator : IMediator
+internal class Mediator : IMediator
 {
     private readonly IServiceProvider _serviceProvider;
 
