@@ -5,6 +5,10 @@
     <Project Path="RTS.BuildingBlocks.Infrastructure\RTS.BuildingBlocks.Infrastructure.csproj" Type="Classic C#" />
   </Folder>
   <Folder Name="/Modules/" />
-  <Folder Name="/Modules/UserAccess/" />
+  <Folder Name="/Modules/UserAccess/">
+    <Project Path="RTS.Modules.UserAccess.Application\RTS.Modules.UserAccess.Application.csproj" Type="Classic C#" />
+    <Project Path="RTS.Modules.UserAccess.Domain\RTS.Modules.UserAccess.Domain.csproj" Type="Classic C#" />
+    <Project Path="RTS.Modules.UserAccess.Infrastructure\RTS.Modules.UserAccess.Infrastructure.csproj" Type="Classic C#" />
+  </Folder>
   <Project Path="RTS.API\RTS.API.csproj" Type="Classic C#" />
 </Solution>
