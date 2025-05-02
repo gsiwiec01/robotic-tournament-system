@@ -5,4 +5,6 @@
     <Project Path="RTS.BuildingBlocks.Infrastructure\RTS.BuildingBlocks.Infrastructure.csproj" Type="Classic C#" />
   </Folder>
   <Folder Name="/Modules/" />
+  <Folder Name="/Modules/UserAccess/" />
+  <Project Path="RTS.API\RTS.API.csproj" Type="Classic C#" />
 </Solution>
