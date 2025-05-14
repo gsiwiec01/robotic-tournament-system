@@ -5,7 +5,7 @@ public interface IRequestHandlerBase;
 public interface IRequestHandler<in TRequest> : IRequestHandlerBase
     where TRequest : IRequest
 {
-    Task Handle(IRequest request, CancellationToken cancellationToken);
+    Task Handle(TRequest request, CancellationToken cancellationToken);
 }
 
 public interface IRequestHandler<in TRequest, TResponse> : IRequestHandlerBase

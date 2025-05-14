@@ -35,7 +35,7 @@ internal class RequestHandlerWrapper<TRequest> : IRequestHandlerWrapper
 
         async Task<Unit> Handler(CancellationToken token)
         {
-            await _handler.Handle(request, token);
+            await _handler.Handle((TRequest) request, token);
             return Unit.Value;
         }
     }
